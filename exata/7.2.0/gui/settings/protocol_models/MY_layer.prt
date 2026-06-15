@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<category name="NODE CONFIGURATION">
+    <subcategory name="MY Layer" invisible="ScenarioLevel">
+        <variable name="Enable SDN" key="IS-SGW" type="Selection" default="NO">
+            <option name="Yes" value="YES">
+                <variable name="Node Type" key="PGW-IP-ADDRESS" type="Selection" default="CONTROLLER"> 
+                    <option name="Controller" value="CONTROLLER" />
+                    <option name="Switch" value="SWITCH" />
+                </variable>
+            </option>
+            <option name="No" value="NO" />
+        </variable>
+    </subcategory>
+</category>
